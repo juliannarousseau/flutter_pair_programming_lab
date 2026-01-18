@@ -2,7 +2,6 @@ import 'package:flutter_pair_programming_lab/src/data/datasources/action_datasou
 import 'package:flutter_pair_programming_lab/src/data/datasources/action_datasource_interface.dart';
 import 'package:flutter_pair_programming_lab/src/data/repository/action_repository_impl.dart';
 import 'package:flutter_pair_programming_lab/src/domain/repositories/action_repository_interface.dart';
-import 'package:flutter_pair_programming_lab/src/domain/usecases/get_action_by_id_usecase.dart';
 import 'package:flutter_pair_programming_lab/src/domain/usecases/get_actions_usecase.dart';
 import 'package:flutter_pair_programming_lab/src/domain/usecases/toggle_action_status_usecase.dart';
 import 'package:flutter_pair_programming_lab/src/presentation/cubit/action_cubit.dart';
@@ -25,11 +24,6 @@ void setupInjection() {
     ),
   );
 
-  getIt.registerLazySingleton<GetActionByIdUsecase>(
-    () => GetActionByIdUsecase(
-      repository: getIt<ActionRepositoryInterface>(),
-    ),
-  );
 
   getIt.registerLazySingleton<ToggleActionStatusUsecase>(
     () => ToggleActionStatusUsecase(

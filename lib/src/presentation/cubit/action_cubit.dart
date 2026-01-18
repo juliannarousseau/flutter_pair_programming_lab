@@ -35,8 +35,14 @@ class ActionCubit extends Cubit<ActionState> {
 
     final currentState = state as ActionSuccessState;
 
+    final actionToToggleStatus = currentState.actions.firstWhere(
+      (action) => action.id == actionId,
+    );
+
     try {
-      final updatedAction = await _toggleActionStatusUsecase(actionId);
+      final updatedAction = await _toggleActionStatusUsecase(
+        actionToToggleStatus,
+      );
 
       final updatedList =
           currentState.actions
