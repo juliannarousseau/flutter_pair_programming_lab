@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "title": "Compartilhar sua loja no WhatsApp",
+        "description": "Envie o link da sua loja para seus contatos",
+        "type": "share_link",
+        "status": "pending",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana"
+    },
+    {
+        "id": 2,
+        "title": "Postar oferta do dia no WhatsApp Status",
+        "description": "Aumente a visibilidade compartilhando uma oferta no seu status",
+        "type": "post_status",
+        "status": "pending",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana"
+    },
+    {
+        "id": 3,
+        "title": "Divulgar lançamento nas redes sociais",
+        "description": "Compartilhe um produto recém-lançado para atrair clientes",
+        "type": "post_social",
+        "status": "pending",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana"
+    },
+    {
+        "id": 4,
+        "title": "Enviar link da loja para clientes recorrentes",
+        "description": "Reative clientes que já compraram com você",
+        "type": "share_link",
+        "status": "done",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana"
+    },
+    {
+        "id": 5,
+        "title": "Compartilhar kits promocionais",
+        "description": "Divulgue kits especiais para aumentar o ticket médio",
+        "type": "share_link",
+        "status": "pending",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana/kits"
+    },
+    {
+        "id": 6,
+        "title": "Postar depoimentos de clientes",
+        "description": "Mostre a satisfação dos seus clientes para atrair novos compradores",
+        "type": "post_social",
+        "status": "pending",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana"
+    },
+    {
+        "id": 7,
+        "title": "Divulgar promoções relâmpago",
+        "description": "Aproveite momentos de alta demanda para aumentar suas vendas",
+        "type": "post_status",
+        "status": "done"
+    },
+    {
+        "id": 8,
+        "title": "Compartilhar novidades da loja",
+        "description": "Mantenha seus clientes informados sobre novos produtos e ofertas",
+        "type": "share_link",
+        "status": "pending",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana/novidades"
+    },
+    {
+        "id": 9,
+        "title": "Postar dicas de uso dos produtos",
+        "description": "Eduque seus clientes sobre como aproveitar melhor os produtos",
+        "type": "post_social",
+        "status": "pending",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana"
+    },
+    {
+        "id": 10,
+        "title": "Enviar lembrete de carrinho abandonado",
+        "description": "Recupere vendas enviando lembretes para clientes que abandonaram o carrinho",
+        "type": "share_link",
+        "status": "done",
+        "shareUrl": "https://minhaloja.boticario.com.br/ana/carrinho"
+    }
+]
