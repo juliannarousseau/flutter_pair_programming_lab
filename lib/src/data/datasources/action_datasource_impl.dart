@@ -19,16 +19,6 @@ class ActionDatasourceImpl implements ActionDatasourceInterface {
   }
 
   @override
-  Future<ActionModel> getActionById(int actionId) async {
-    if (_actions.isEmpty) await getActions();
-
-    return _actions.firstWhere(
-      (action) => action.id == actionId,
-      orElse: () => throw Exception('Ação com ID $actionId não encontrada.'),
-    );
-  }
-
-  @override
   Future<void> updateAction(ActionModel action) async {
     final index = _actions.indexWhere((a) => a.id == action.id);
     if (index == -1) {

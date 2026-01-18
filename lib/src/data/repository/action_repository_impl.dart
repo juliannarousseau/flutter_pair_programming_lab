@@ -16,12 +16,6 @@ class ActionRepositoryImpl implements ActionRepositoryInterface {
   }
 
   @override
-  Future<ActionEntity?> getActionById(int actionId) async {
-    final model = await _datasource.getActionById(actionId);
-    return model?.toEntity();
-  }
-
-  @override
   Future<void> toggleActionStatus(ActionEntity action) async {
     final model = ActionModel.fromEntity(action);
     await _datasource.updateAction(model);
