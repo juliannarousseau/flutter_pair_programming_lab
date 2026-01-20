@@ -4,7 +4,7 @@
 
 ### 📌 Context
 
-This project simulates a **real-world pair programming challenge** inspired by the **Grupo Boticário – Direct Sales (Venda Direta)** domain.
+This project simulates a **real-world pair programming challenge** inspired by the [Grupo Boticário – Direct Sales (Venda Direta)](https://grupoboticario.gupy.io/jobs/10539502) job opening.
 
 The goal is to model a small but realistic feature that could exist in the **Minha Loja Digital** app, focusing on **business understanding, architectural decisions, and collaboration**, rather than UI polish.
 
